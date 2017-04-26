@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: orange;
-  font-family: sans-serif;
+  font-family: Monospace;
 }
 
 .container {
@@ -18,6 +18,7 @@ body {
   padding: 10px 15px;
   margin: 4px 2px;
   width: 98px;
+  font-size: 1.2em;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -72,9 +73,11 @@ body {
 
 .timer-text {
   display: inline-block;
+  line-height: 20%;
+  font-size: 3.1em;
   width: 60%;
   height: 100px;
-  margin: auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -83,5 +86,5 @@ body {
 }
 
 h2.center {
-  padding-top: 17px;
+  padding-bottom: 5px;
 }

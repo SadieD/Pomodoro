@@ -69,19 +69,6 @@ $(document).ready(function(){
       $('#timer-count').text(TimerFormat(timerSet));
     }
   });
-  
-  Notification.requestPermission().then(function(result) {
-  console.log(result);
-  });
-  
-  function spawnNotification(theBody,theIcon,theTitle) {
-    var options = {
-        body: theBody,
-        icon: theIcon
-    }
-    var n = new Notification(theTitle,options);
-    setTimeout(n.close.bind(n), 4000);
-  }
 
   function TimerFormat(t1){
     var tMins = 0;
@@ -107,7 +94,6 @@ $(document).ready(function(){
           $("title").text(TimerFormat(timerSet - timerCurrent) + " Pomodoro");
           
         } else {
-          spawnNotification('Time\'s up!','http://cnoss.us/static/images/terminal.png', 'Pomodoro: ');
           audioAlarm.play();
           timerStatus = false;
         }

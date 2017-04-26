@@ -17,14 +17,14 @@ body {
   border-radius: 4px;
   padding: 10px 15px;
   margin: 4px 2px;
-  width: 95px;
+  width: 98px;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .button-sm {
-  width: 73px;
+  width: 82px;
 }
 
 .button-inc {
@@ -49,7 +49,7 @@ body {
   border-style: double;
   border-color: orange;
   width: 80%;
-  max-width: 597px;
+  max-width: 640px;
   max-height: 200px;
   margin: 0 auto;
 }

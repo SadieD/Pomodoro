@@ -90,12 +90,13 @@ body {
   margin: 50px auto;
   color: orange;
   font-family: Monospace;
-  font-size: 3;
 }
 
 a:link {
     text-decoration: none;
     color: orange;
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
 }
 
 a:visited {

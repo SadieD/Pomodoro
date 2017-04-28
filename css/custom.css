@@ -81,6 +81,28 @@ body {
   overflow: hidden;
 }
 
+.octocat {
+  border-width: 0;
+  border-style: none;
+  width: 80%;
+  max-width: 640px;
+  max-height: 200px;
+  margin: 50px auto;
+  color: orange;
+  font-family: Monospace;
+  font-size: 3;
+}
+
+a:link {
+    text-decoration: none;
+    color: orange;
+}
+
+a:visited {
+    text-decoration: none;
+    color: orange;
+}
+
 .center {
   text-align: center;
 }
